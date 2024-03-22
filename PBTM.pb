@@ -129,6 +129,7 @@ Procedure editor(ids.s)
   StringGadget(16, 5, 80, 390, 20, *editableTask\tags)
   ButtonGadget(14, 230, 55, 80, 20, "save")
   ButtonGadget(15, 315, 55, 80, 20, "cancel")
+;   ListView_EnableGroupView_(GadgetID(0), 1)
 EndProcedure
 Procedure editorGroup(ids.s)
   
